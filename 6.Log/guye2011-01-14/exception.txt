@@ -1,0 +1,300 @@
+2010-12-17 10:39:19
+System.IO.FileNotFoundException: Could not load file or assembly 'stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. 系统找不到指定的文件。
+File name: 'stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at btGR.frmGisMain.ShowLayers()
+   at btGR.frmGisMain.GWLoadLayers()
+   at btGR.frmGisMain.radioButton2_CheckedChanged(Object sender, EventArgs e)
+   at System.Windows.Forms.RadioButton.OnCheckedChanged(EventArgs e)
+   at System.Windows.Forms.RadioButton.set_Checked(Boolean value)
+   at btGR.frmGisMain.InitializeTools()
+   at btGR.frmGisMain.Form1_Load(Object sender, EventArgs e)
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+
+2010-12-17 10:40:13
+System.IO.FileNotFoundException: Could not load file or assembly 'stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. 系统找不到指定的文件。
+File name: 'stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at btGR.frmGisMain.ShowLayers()
+   at btGR.frmGisMain.GWLoadLayers()
+   at btGR.frmGisMain.radioButton2_CheckedChanged(Object sender, EventArgs e)
+   at System.Windows.Forms.RadioButton.OnCheckedChanged(EventArgs e)
+   at System.Windows.Forms.RadioButton.set_Checked(Boolean value)
+   at btGR.frmGisMain.InitializeTools()
+   at btGR.frmGisMain.Form1_Load(Object sender, EventArgs e)
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+
+2010-12-21 10:37:05
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Tool.DataInfo.CRC16(Byte[] data)
+   at Tool.DataInfo.check_crc(Byte[] data)
+   at SocketServer.main.rs_ReceivedEvent(Object sender, EventArgs e)
+   at SocketRSLib.SocketRSAPM.callback(IAsyncResult ia)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+2010-12-21 11:15:31
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Tool.DataInfo.CRC16(Byte[] data)
+   at Tool.DataInfo.check_crc(Byte[] data)
+   at SocketServer.main.rs_ReceivedEvent(Object sender, EventArgs e)
+   at SocketRSLib.SocketRSAPM.callback(IAsyncResult ia)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+2010-12-21 11:17:39
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Tool.DataInfo.CRC16(Byte[] data)
+   at Tool.DataInfo.check_crc(Byte[] data)
+   at SocketServer.main.rs_ReceivedEvent(Object sender, EventArgs e)
+   at SocketRSLib.SocketRSAPM.callback(IAsyncResult ia)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+2010-12-21 11:18:32
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Tool.DataInfo.CRC16(Byte[] data)
+   at Tool.DataInfo.check_crc(Byte[] data)
+   at SocketServer.main.rs_ReceivedEvent(Object sender, EventArgs e)
+   at SocketRSLib.SocketRSAPM.callback(IAsyncResult ia)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+2010-12-21 13:32:01
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Tool.DataInfo.CRC16(Byte[] data)
+   at Tool.DataInfo.check_crc(Byte[] data)
+   at SocketServer.main.rs_ReceivedEvent(Object sender, EventArgs e)
+   at SocketRSLib.SocketRSAPM.callback(IAsyncResult ia)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+2010-12-21 13:36:41
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Tool.DataInfo.CRC16(Byte[] data)
+   at Tool.DataInfo.check_crc(Byte[] data)
+   at SocketServer.main.rs_ReceivedEvent(Object sender, EventArgs e)
+   at SocketRSLib.SocketRSAPM.callback(IAsyncResult ia)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+2010-12-21 13:42:49
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Tool.DataInfo.CRC16(Byte[] data)
+   at Tool.DataInfo.check_crc(Byte[] data)
+   at SocketServer.main.rs_ReceivedEvent(Object sender, EventArgs e)
+   at SocketRSLib.SocketRSAPM.callback(IAsyncResult ia)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+2010-12-21 13:43:12
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Tool.DataInfo.CRC16(Byte[] data)
+   at Tool.DataInfo.check_crc(Byte[] data)
+   at SocketServer.main.rs_ReceivedEvent(Object sender, EventArgs e)
+   at SocketRSLib.SocketRSAPM.callback(IAsyncResult ia)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+2010-12-21 14:16:50
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Tool.DataInfo.CRC16(Byte[] data)
+   at Tool.DataInfo.check_crc(Byte[] data)
+   at SocketServer.main.rs_ReceivedEvent(Object sender, EventArgs e)
+   at SocketRSLib.SocketRSAPM.callback(IAsyncResult ia)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+2010-12-21 14:17:38
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Tool.DataInfo.CRC16(Byte[] data)
+   at Tool.DataInfo.check_crc(Byte[] data)
+   at SocketServer.main.rs_ReceivedEvent(Object sender, EventArgs e)
+   at SocketRSLib.SocketRSAPM.callback(IAsyncResult ia)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+2010-12-21 14:18:18
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Tool.DataInfo.CRC16(Byte[] data)
+   at Tool.DataInfo.check_crc(Byte[] data)
+   at SocketServer.main.rs_ReceivedEvent(Object sender, EventArgs e)
+   at SocketRSLib.SocketRSAPM.callback(IAsyncResult ia)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+2010-12-21 15:56:12
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Tool.DataInfo.CRC16(Byte[] data)
+   at Tool.DataInfo.check_crc(Byte[] data)
+   at SocketServer.main.rs_ReceivedEvent(Object sender, EventArgs e)
+   at SocketRSLib.SocketRSAPM.callback(IAsyncResult ia)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+2010-12-21 15:58:28
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Tool.DataInfo.CRC16(Byte[] data)
+   at Tool.DataInfo.check_crc(Byte[] data)
+   at SocketServer.main.rs_ReceivedEvent(Object sender, EventArgs e)
+   at SocketRSLib.SocketRSAPM.callback(IAsyncResult ia)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+2010-12-21 16:00:33
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Tool.DataInfo.CRC16(Byte[] data)
+   at Tool.DataInfo.check_crc(Byte[] data)
+   at SocketServer.main.rs_ReceivedEvent(Object sender, EventArgs e)
+   at SocketRSLib.SocketRSAPM.callback(IAsyncResult ia)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+2010-12-21 16:01:57
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Tool.DataInfo.CRC16(Byte[] data)
+   at Tool.DataInfo.check_crc(Byte[] data)
+   at SocketServer.main.rs_ReceivedEvent(Object sender, EventArgs e)
+   at SocketRSLib.SocketRSAPM.callback(IAsyncResult ia)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+2010-12-21 16:06:40
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Tool.DataInfo.CRC16(Byte[] data)
+   at Tool.DataInfo.check_crc(Byte[] data)
+   at SocketServer.main.rs_ReceivedEvent(Object sender, EventArgs e)
+   at SocketRSLib.SocketRSAPM.callback(IAsyncResult ia)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+2010-12-22 15:51:46
+System.ArgumentException: String was not recognized as a valid DateTime.Couldn't store <2000-00-00 00:02:19> in DT Column.  Expected type is DateTime. ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Data.Common.DateTimeStorage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at xg.xg_main.timer1_Tick(Object sender, EventArgs e)
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
