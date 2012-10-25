@@ -250,7 +250,7 @@ namespace SocketServer
                 return null;
             }
         }
-
+        
         //建立xd100n数据缓存
         public Tool.XDRZInfo[] Createxd100nDatas()
         {
@@ -603,7 +603,7 @@ namespace SocketServer
                     }
                     else
                     {
-                        //_XDRZInfoList[i]._commandonce[j]._timeoutnow = 0;
+                        _XDRZInfoList[i]._commandonce[j]._timeoutnow = 0;
                     }
                     //判断超时
                     if (_XDRZInfoList[i]._commandonce[j]._timeoutnow >= _XDRZInfoList[i]._station._timeout)
@@ -646,21 +646,16 @@ namespace SocketServer
                     //判断发送完成 开始计时
                     if (_XDRZInfoList[i]._command[j]._sendover == true)
                     {
-                        Console.WriteLine( "before: " + 
-                        _XDRZInfoList[i]._command[j]._timeoutnow
-                            );
                         _XDRZInfoList[i]._command[j]._timeoutnow++;
-                        Console.WriteLine( "after: " + 
-                        _XDRZInfoList[i]._command[j]._timeoutnow );
                     }
                     else
                     {
-                        //_XDRZInfoList[i]._command[j]._timeoutnow=0;
+                        _XDRZInfoList[i]._command[j]._timeoutnow=0;
                     }
                     //判断超时
                     if (_XDRZInfoList[i]._command[j]._timeoutnow >= _XDRZInfoList[i]._station._timeout)
                     {
-                        //_XDRZInfoList[i]._command[j]._timeoutnow = 0;
+                        _XDRZInfoList[i]._command[j]._timeoutnow = 0;
                         _XDRZInfoList[i]._command[j]._sendover = false;
                         //解除ISocketRS占用
                         On_ISocketRS(_XDRZInfoList[i]._station._IPAddress, false);
@@ -688,7 +683,7 @@ namespace SocketServer
                         if (send_flg == true)
                         {
                             _XDRZInfoList[i]._command[j]._sendover = true;
-                            //_XDRZInfoList[i]._command[j]._timeoutnow = 0;
+                            _XDRZInfoList[i]._command[j]._timeoutnow = 0;
                             _XDRZInfoList[i]._command[j]._dt = DateTime.Now;
                             //占用ISocketRS
                             On_ISocketRS(_XDRZInfoList[i]._station._IPAddress, true);
@@ -713,7 +708,7 @@ namespace SocketServer
                     }
                     else
                     {
-                        _XDRZInfoList[i]._commandonce[j]._timeoutnow = 0;
+                        _XDXGInfoList[i]._commandonce[j]._timeoutnow = 0;
                     }
                     //判断超时
                     if (_XDXGInfoList[i]._commandonce[j]._timeoutnow >= _XDXGInfoList[i]._XGInfo._timeout)
@@ -759,7 +754,7 @@ namespace SocketServer
                     }
                     else
                     {
-                        //_XDRZInfoList[i]._command[j]._timeoutnow = 0;
+                        _XDXGInfoList[i]._command[j]._timeoutnow = 0;
                     }
                     //判断超时
                     if (_XDXGInfoList[i]._command[j]._timeoutnow >= _XDXGInfoList[i]._XGInfo._timeout)
